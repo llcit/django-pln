@@ -1,4 +1,4 @@
-# clt_uhcas_auth
+# django-pln
 [![Python](https://img.shields.io/badge/python-2.7,3.4,3.5,3.6-blue.svg?style=flat)](https://www.python.org)
 [![Django](https://img.shields.io/badge/django-1.8,1.9,1.10-green.svg?style=flat)](https://www.djangoproject.com)
 [![Django CMS](https://img.shields.io/badge/djangocms-3.4.x-green.svg?style=flat)](https://www.django-cms.org)
