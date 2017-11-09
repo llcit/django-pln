@@ -1,0 +1,26 @@
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+ .apps .rows {
+ -moz-column-width: 30em;
+ -webkit-column-width: 30em;
+ -moz-column-gap: .5em;
+ -webkit-column-gap: .5em;
+
+}
+
+.apps .panel {
+    padding-bottom: 4px;
+    display: inline-block;
+    margin:  .5em;
+    padding:  0;
+    width:98%;
+}
+
+.apps panel-heading {
+    height: 100px;
+}
+
+.icon {
+    float:left;
+    height:32px;
+}
