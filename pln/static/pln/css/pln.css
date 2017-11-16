@@ -1,4 +1,6 @@
-*, *:before, *:after {box-sizing:  border-box !important;}
+*, *:before, *:after {
+  box-sizing: border-box !important;
+}
 
  .apps .rows {
  -moz-column-width: 30em;
@@ -9,18 +11,18 @@
 }
 
 .apps .panel {
-    padding-bottom: 4px;
+    padding-bottom: 0.25em;
     display: inline-block;
     margin:  .5em;
     padding:  0;
-    width:98%;
+    width:24em;
 }
 
 .apps panel-heading {
-    height: 100px;
+    height: 6.25;
 }
 
 .icon {
     float:left;
-    height:32px;
+    height:2em;
 }

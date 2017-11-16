@@ -154,17 +154,17 @@
             <div class="panel-group">
               {% for item in apps %}
                   <!-- panel -->
-                  <div class="app panel" data-id="{{ item.name }}" data-category ="{% for type in item.type.all %}{{ type | cut:" " | lower }} {% endfor %}{% for format in item.format.all %}{{ format | cut:" " | lower }} {% endfor %}{% for function in item.function.all %}{{ function | cut:" " | lower }} {% endfor %}{% for price in item.price.all %}{{ price | cut:" " | lower }} {% endfor %}{% for support in item.support.all %}{{ support | cut:" " | lower }} {% endfor %}">
+                  <div class="app panel panel-warning" data-id="{{ item.name }}" data-category ="{% for type in item.type.all %}{{ type | cut:" " | lower }} {% endfor %}{% for format in item.format.all %}{{ format | cut:" " | lower }} {% endfor %}{% for function in item.function.all %}{{ function | cut:" " | lower }} {% endfor %}{% for price in item.price.all %}{{ price | cut:" " | lower }} {% endfor %}{% for support in item.support.all %}{{ support | cut:" " | lower }} {% endfor %}">
 
                     <!-- panel header -->
                   	<div class="panel-heading" >
                   	  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#{{ item.id }}">
                         <div class="row">
                           <span class="clickable">
-                            <div class="col-md-2">
+                            <div class="col-md-3 col-xs-3">
                 	            <img class="img-responsive icon" src="{% if item.icon_image %}{% static item.icon_image.url %}{% else %}{{ item.icon }}{% endif %}" alt="N/A">
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                               <!-- frontend editing option -->
                               <h5>{% render_model item "name" %}
                               <span class="pull-right"><i class="glyphicon glyphicon-chevron-down"></i></span></h5>
