@@ -18,11 +18,15 @@
     width:24em;
 }
 
+.filter .panel-heading a {
+  text-decoration: none;
+}
+
 .apps panel-heading {
     height: 6.25;
 }
 
 .icon {
     float:left;
-    height:2em;
+    height: 2em;
 }
